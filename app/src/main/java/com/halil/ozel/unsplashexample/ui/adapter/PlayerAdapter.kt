@@ -34,7 +34,7 @@ class PlayerAdapter(private val paymentList: List<PlayerInfo>) : RecyclerView.Ad
 
             }else
             {
-                itemBinding.tvPlayerName.setText("${paymentBean.Name_Full} ${paymentBean.Iscaptain}")
+                itemBinding.tvPlayerName.setText("${paymentBean.Name_Full}")
 
             }
             if(paymentBean.Bowling.Style.equals("OB"))
